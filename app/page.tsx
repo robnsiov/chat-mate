@@ -1,4 +1,10 @@
+import Nvabbar from "@/components/common/navbar";
+
 const Page = () => {
-  return <></>;
+  return (
+    <>
+      <Nvabbar />
+    </>
+  );
 };
 export default Page;
