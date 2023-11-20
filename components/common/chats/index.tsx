@@ -3,7 +3,7 @@ import { IoCheckmarkDoneOutline, IoCheckmarkOutline } from "react-icons/io5";
 const Chats = () => {
   return (
     <>
-      <div className="w-[400px] h-full overflow-auto flex justify-start items-start flex-col bg-slate-100">
+      <div className="min-w-[400px] h-full overflow-auto flex justify-start items-start flex-col bg-slate-100">
         {Array.from({ length: 30 }).map((_, i) => (
           <div
             key={i}
